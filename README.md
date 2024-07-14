@@ -27,7 +27,7 @@ Originally, the images for subsets N1 and N2 were sourced from the CROHME test s
 
 ## Getting Started
 
-- ### Installation
+### Installation
 ```bash
 cd PosFormer
 # install project   
