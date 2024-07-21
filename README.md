@@ -15,6 +15,7 @@
 
 ## News 
 * ```2024.7.10 ``` 🚀 [MNE](https://drive.google.com/file/d/1iiCxwt05v9a7jQIf074F1ltYLNxYe63b/view?usp=drive_link) available.
+* ```2024.7.21 ``` 🚀 Code and checkpoint (CROHME) available.
 
 
 ## MNE
@@ -46,7 +47,7 @@ Please download CROHME and MNE datasets and organize them as follows
 
 ```
 - PosFormer
-  | - data.zip
+  | - data_crohme.zip
   | - data_MNE.zip
 
 ```
@@ -65,12 +66,9 @@ python train.py --config config.yaml
 
 ```bash
 cd PosFormer
-perl --version  # make sure you have installed perl 5
 # results will be printed in the screen and saved to lightning_logs/version_0 folder
 bash eval_all.sh 0
 ```
 
  ### TODO
- 1. Release the code of PosFormer
- 2. Release checkpoint
- 3. Improve README and samples
+ 1. Improve README and samples
