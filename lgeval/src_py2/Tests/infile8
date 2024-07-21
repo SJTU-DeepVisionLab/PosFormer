@@ -1,4 +1,0 @@
-# One invalid, and one valid node entry.
-
-N, node1, 1.0
-N, node2, x, 1.0

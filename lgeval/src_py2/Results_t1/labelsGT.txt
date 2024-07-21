@@ -1,7 +1,0 @@
-NODE LABELS:
-+
-2
-
-EDGE LABELS:
-+
-Right
