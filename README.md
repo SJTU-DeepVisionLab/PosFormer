@@ -15,7 +15,8 @@
 
 ## News 
 * ```2024.7.10 ``` 🚀 [MNE](https://drive.google.com/file/d/1iiCxwt05v9a7jQIf074F1ltYLNxYe63b/view?usp=drive_link) available.
-* ```2024.7.21 ``` 🚀 Code and checkpoint (CROHME) available.
+* ```2024.7.21 ``` 🚀 Source code and checkpoint (CROHME) available.
+* ```2024.8.14 ``` 🚀 Fixed the error in the training command, provided the download link for CROHME, and optimized the README.
 
 
 ## MNE
@@ -44,12 +45,25 @@ pip install -e .
 ### Data Preparation
 
 Please download CROHME and MNE datasets and organize them as follows
+```
+📂 PosFormer
+   ├── 📦 data_crohme.zip
+   └── 📦 data_MNE.zip
 
 ```
-- PosFormer
-  | - data_crohme.zip
-  | - data_MNE.zip
+The MNE dataset can now be downloaded [here](https://drive.google.com/file/d/1iiCxwt05v9a7jQIf074F1ltYLNxYe63b/view?usp=drive_link).
 
+The CROHME dataset can be downloaded [CoMER/blob/master/data.zip](https://github.com/Green-Wood/CoMER/blob/master/data.zip) (provided by the **CoMER** project) 
+
+If you have additional data, you can organize them in a similar way as shown below and compress them into a **zip** file (you can also modify the datamodule to directly input the files).
+```
+📂 data
+   └── 📂 name_of_dataset
+       ├── 📂 img
+       │   ├── 0.png
+       │   ├── 1.png
+       │   └── ...
+       └── caption.txt
 ```
 
 ### Training
@@ -67,8 +81,10 @@ python train.py --config config.yaml
 ```bash
 cd PosFormer
 # results will be printed in the screen and saved to lightning_logs/version_0 folder
-bash eval_all.sh 0
+bash eval_all_crohme.sh 0
 ```
 
  ### TODO
- 1. Improve README and samples
+ 1. update LICENSE file 
+ 2. Improve README and samples
+
