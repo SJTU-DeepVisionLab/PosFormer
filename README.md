@@ -66,6 +66,10 @@ If you have additional data, you can organize them in a similar way as shown bel
        └── caption.txt
 ```
 
+### Checkpoint
+
+[model weights](https://github.com/SJTU-DeepVisionLab/PosFormer/tree/main/lightning_logs/version_0/checkpoints)
+
 ### Training
 
 For training, we utilize a single A800 GPU; however, an RTX 3090 GPU also provides sufficient memory to support a training batch size of 8. The training process is expected to take approximately 25 hours on a single A800 GPU.
