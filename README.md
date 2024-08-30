@@ -104,5 +104,5 @@ bash eval_all_crohme.sh 0
 
 ### License
 ```
-- This code is only free for academic research purposes and licensed under the 2-clause BSD License - see the LICENSE file for details.
+- This code is only free for academic research purposes and licensed under the 2-clause BSD License. Parts of this project contain code from other sources, which are subject to their respective licenses.
 ```
