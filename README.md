@@ -92,3 +92,17 @@ bash eval_all_crohme.sh 0
  1. update LICENSE file 
  2. Improve README and samples
 
+### Citation
+```
+@article{guan2024posformer,
+  title={PosFormer: Recognizing Complex Handwritten Mathematical Expression with Position Forest Transformer},
+  author={Guan, Tongkun and Lin, Chengyu and Shen, Wei and Yang, Xiaokang},
+  journal={arXiv preprint arXiv:2407.07764},
+  year={2024}
+}
+```
+
+### License
+```
+- This code is only free for academic research purposes and licensed under the 2-clause BSD License - see the LICENSE file for details.
+```
