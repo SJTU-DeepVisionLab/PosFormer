@@ -21,7 +21,7 @@
 * ```2024.8.14 ``` 🚀 Fixed the error in the training command, provided the download link for CROHME, and optimized the README.
 
 
-## MNE
+## MNE Dataset
 The MNE dataset can now be downloaded [here](https://drive.google.com/file/d/1iiCxwt05v9a7jQIf074F1ltYLNxYe63b/view?usp=drive_link).
 
 The Multi-level Nested Expression (MNE) dataset is specifically designed for evaluating the capability of models to recognize complex handwritten mathematical expressions. It comprises three subsets categorized based on the nested levels of the expressions: N1, N2, and N3, representing one, two, and three levels of nesting, respectively. This dataset avoids using the N4 level due to its minimal representation (only 0.2%) in public datasets. The distribution of the other levels in existing datasets includes 37.4% for N1, 51.4% for N2, 9.7% for N3, and 1.3% for other complexities.
