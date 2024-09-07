@@ -6,6 +6,7 @@
 <h5 align="center">
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2407.07764-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2407.07764)
+[![blog](https://zhuanlan.zhihu.com/p/715387619)]
 
 # Description
  This repository provides the official implementation of the Position Forest Transformer (PosFormer) for Handwritten Mathematical Expression Recognition (HMER). This innovative model introduces a dual-task approach, optimizing both expression and position recognition to facilitate position-aware feature learning for symbols in mathematical expressions. It employs a novel structure called a position forest to parse and model the hierarchical relationships and spatial positioning of symbols without the need for extra annotations. Additionally, an implicit attention correction module is integrated into the sequence-based decoder architecture to enhance focus and accuracy in symbol recognition. PosFormer demonstrates significant improvements over existing methods on several benchmarks, including single-line CROHME datasets and more complex multi-line and nested expression datasets, achieving higher performance without extra computational overhead. This repository includes code, pre-trained models, and usage instructions to aid researchers and developers in applying and further developing this state-of-the-art HMER solution.
